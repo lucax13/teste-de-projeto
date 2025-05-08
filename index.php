@@ -13,27 +13,27 @@
         <h1 class="m-0"><a href="index.html" class="text-light text-decoration-none">Explosão Cultural</a></h1>
         <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container">
-            <a class="navbar-brand" href="index.html">Explosão Cultural</a>
             <button class="navbar-toggler" type="button" id="menuBtn" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menuNav">
               <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="generos.html">Gêneros</a></li>
-                <li class="nav-item"><a class="nav-link" href="enderecos.html">Endereços</a></li>
-                <li class="nav-item"><a class="nav-link" href="usuarios.html">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="generos.php">Gêneros</a></li>
+                <li class="nav-item"><a class="nav-link" href="enderecos.php">Endereços</a></li>
+                <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
     </header>
-    
-    <footer>
-      <p>Explosão Cultural tem Permisão ao uso de cada imagen</p>
-  </footer>
-  <script src="/js/menu.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+    <footer class="bg-black text-center py-3">
+      <p class="m-0">Explosão Cultural — Imagens usadas com permissão</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/menu.js"></script>
   </body>
 </html>

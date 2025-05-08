@@ -13,23 +13,22 @@
         <h1 class="m-0"><a href="index.html" class="text-light text-decoration-none">Explosão Cultural</a></h1>
         <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container">
-            <a class="navbar-brand" href="index.html">Explosão Cultural</a>
             <button class="navbar-toggler" type="button" id="menuBtn" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menuNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="generos.html">Gêneros</a></li>
-                <li class="nav-item"><a class="nav-link" href="enderecos.html">Endereços</a></li>
-                <li class="nav-item"><a class="nav-link" href="usuarios.html">Login</a></li>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="generos.php">Gêneros</a></li>
+                <li class="nav-item"><a class="nav-link" href="enderecos.php">Endereços</a></li>
+                <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
     </header>
-
+    
     <main class="container py-5">
       <section class="text-center mb-5">
         <h2 class="display-5 fw-bold">Descubra eventos únicos</h2>
@@ -41,7 +40,7 @@
           <div class="card bg-secondary text-light h-100">
             <img src="https://source.unsplash.com/400x250/?concert" class="card-img-top" alt="Show">
             <div class="card-body">
-              <h5 class="card-title">Festival de Verão</h5>
+              <h5 class="card-title">Festival Indie</h5>
               <p class="card-text">Música ao vivo e artistas nacionais. Dia 20 de Julho.</p>
             </div>
           </div>
@@ -68,12 +67,13 @@
         </div>
       </section>
     </main>
-
-    <footer class="bg-black text-center py-3">
-      <p class="m-0">Explosão Cultural — Imagens usadas com permissão</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <footer>
+      <p>Explosão Cultural tem Permisão ao uso de cada imagen</p>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     <script src="/js/menu.js"></script>
   </body>
+
+
 </html>

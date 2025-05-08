@@ -13,7 +13,6 @@
         <h1 class="m-0"><a href="index.html" class="text-light text-decoration-none">Explosão Cultural</a></h1>
         <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container">
-            <a class="navbar-brand" href="index.html">Explosão Cultural</a>
             <button class="navbar-toggler" type="button" id="menuBtn" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,13 +28,13 @@
         </nav>
       </div>
     </header>
-    
+
+
     <footer>
-      <p>Explosão Cultural tem Permisão ao uso de cada imagen</p>
-  </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+        <p>Explosão Cultural tem Permisão ao uso de cada imagen</p>
+    </footer>
+
     <script src="/js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
   </body>
-
-
 </html>
