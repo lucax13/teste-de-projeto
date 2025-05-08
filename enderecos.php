@@ -10,7 +10,7 @@
   <body class="bg-dark text-light">
     <header class="bg-black p-3">
       <div class="container d-flex justify-content-between align-items-center">
-        <h1 class="m-0"><a href="index.html" class="text-light text-decoration-none">Explosão Cultural</a></h1>
+        <h1 class="m-0"><a href="index.php" class="text-light text-decoration-none">Explosão Cultural</a></h1>
         <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container">
             <button class="navbar-toggler" type="button" id="menuBtn" aria-label="Toggle navigation">
@@ -18,10 +18,10 @@
             </button>
             <div class="collapse navbar-collapse" id="menuNav">
               <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="generos.html">Gêneros</a></li>
-                <li class="nav-item"><a class="nav-link" href="enderecos.html">Endereços</a></li>
-                <li class="nav-item"><a class="nav-link" href="usuarios.html">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="generos.php">Gêneros</a></li>
+                <li class="nav-item"><a class="nav-link" href="enderecos.php">Endereços</a></li>
+                <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
               </ul>
             </div>
           </div>
