@@ -28,6 +28,7 @@
         </nav>
       </div>
     </header>
+
     <section class="container py-5">
   <h2 class="text-white mb-4">Eventos em Destaque</h2>
 
@@ -91,6 +92,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/menu.js"></script>
+    <script src="js/menu.js"></script>
   </body>
 </html>
