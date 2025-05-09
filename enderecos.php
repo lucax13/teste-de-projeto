@@ -30,11 +30,9 @@
     </header>
 
 
-    
     <footer class="bg-black text-center py-3">
-      <p class="m-0">Explosão Cultural — Imagens usadas com permissão</p>
-    </footer>
-
+    <p class="m-0">Explosão Cultural — Empresa fictícia crianda por Maycon e Lucas &copy; </p>
+  </footer>
 
     <script src="js/menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
