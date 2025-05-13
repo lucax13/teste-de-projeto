@@ -33,7 +33,7 @@
       <h2 class="mb-4">Login</h2>
       <p class="text-warning">Atenção: os campos <strong>Nome</strong> e <strong>E-mail</strong> são <u>obrigatórios</u>.</p>
 
-      <form autocomplete="off" action="https://formspree.io/f/xqakkgap" method="post" id="my-form">
+      <form autocomplete="off" action="https://formspree.io/f/mldbpvlk" method="post" id="my-form">
         <fieldset class="border p-4 rounded">
           <legend class="float-none w-auto px-3">Formulário de Contato</legend>
 
@@ -71,6 +71,7 @@
     </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/login.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 
