@@ -29,40 +29,38 @@
         </div>
       </nav>
     </div>
-  <div class="container my-5">
-  <h2 class="mb-4">Fale conosco</h2>
-  <p class="text-warning">Atenção: os campos <strong>Nome</strong>, <strong>E-mail</strong> e <strong>Mensagem</strong> são <u>obrigatórios</u>.</p>
+    <div class="container my-5">
+      <h2 class="mb-4">Login</h2>
+      <p class="text-warning">Atenção: os campos <strong>Nome</strong> e <strong>E-mail</strong> são <u>obrigatórios</u>.</p>
 
-  <form autocomplete="off" action="https://formspree.io/f/xqakkgap" method="post" id="my-form">
-    <fieldset class="border p-4 rounded">
-      <legend class="float-none w-auto px-3">Formulário de Contato</legend>
+      <form autocomplete="off" action="https://formspree.io/f/xqakkgap" method="post" id="my-form">
+        <fieldset class="border p-4 rounded">
+          <legend class="float-none w-auto px-3">Formulário de Contato</legend>
 
-      <div class="mb-3">
-        <label for="nome" class="form-label">Nome completo *</label>
-        <input type="text" class="form-control" name="nome" id="nome" required placeholder="Digite seu nome completo">
-      </div>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome completo *</label>
+            <input type="text" class="form-control" name="nome" id="nome" required placeholder="Digite seu nome completo">
+          </div>
 
-      <div class="mb-3">
-        <label for="email" class="form-label">E-mail *</label>
-        <input type="email" class="form-control" name="email" id="email" required placeholder="email@exemplo.com">
-      </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail *</label>
+            <input type="email" class="form-control" name="email" id="email" required placeholder="email@exemplo.com">
+          </div>
 
-      <div class="mb-3">
-        <label for="nascimento" class="form-label">Data de nascimento</label>
-        <input type="date" class="form-control" name="nascimento" id="nascimento">
-      </div>
+          <div class="mb-3">
+            <label for="nascimento" class="form-label">Data de nascimento</label>
+            <input type="date" class="form-control" name="nascimento" id="nascimento">
+          </div>
 
-      <div class="mb-3">
-        <label for="telefone" class="form-label">Telefone</label>
-        <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="(99) 99999-9999">
-      </div>
-
-      <div class="text-end">
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </div>
+          <div class="mb-3">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="(99) 99999-9999">
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
     </fieldset>
-  </form>
-</div>
+    </form>
+    </div>
 
 
 

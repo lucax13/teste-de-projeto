@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login ADM</title>
-    <link rel="stylesheet" href="css/estilo.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explosão Cultural</title>
+  <link rel="stylesheet" href="css/estilo.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -28,21 +29,56 @@
         </div>
       </nav>
     </div>
-  </header>
+  <div class="container my-5">
+  <h2 class="mb-4">Login de Adiministrador</h2>
+  <p class="text-warning">Atenção: os campos <strong>Nome</strong>, <strong>E-mail</strong> e <strong>Mensagem</strong> são <u>obrigatórios</u>.</p>
 
-  
+  <form autocomplete="off" action="https://formspree.io/f/xqakkgap" method="post" id="my-form">
+    <fieldset class="border p-4 rounded">
+      <legend class="float-none w-auto px-3">Formulário de Contato</legend>
 
-  <footer class="bg-black text-center py-3">
-    <p class="m-0">Explosão Cultural — Empresa fictícia crianda por Maycon e Lucas &copy; </p>
-  </footer>
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome completo *</label>
+        <input type="text" class="form-control" name="nome" id="nome" required placeholder="Digite seu nome completo">
+      </div>
 
-  <script src="js/menu.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail *</label>
+        <input type="email" class="form-control" name="email" id="email" required placeholder="email@exemplo.com">
+      </div>
+
+      <div class="mb-3">
+        <label for="nascimento" class="form-label">Data de nascimento</label>
+        <input type="date" class="form-control" name="nascimento" id="nascimento">
+      </div>
+
+      <div class="mb-3">
+        <label for="telefone" class="form-label">Telefone</label>
+        <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="(99) 99999-9999">
+      </div>
+
+      <div class="mb-3">
+        <label for="mensagem" class="form-label">Mensagem *</label>
+        <textarea class="form-control" name="mensagem" id="mensagem" rows="4" required placeholder="Digite sua mensagem"></textarea>
+      </div>
+
+      <div class="text-end">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+
+
+
+
+
+    <footer class="bg-black text-center py-3">
+      <p class="m-0">Explosão Cultural — Empresa fictícia crianda por Maycon e Lucas &copy; </p>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 
-</html>
-</head>
-<body>
-    
-</body>
 </html>
