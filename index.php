@@ -108,15 +108,34 @@
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="card bg-secondary text-light h-100">
-          <img src="https://source.unsplash.com/400x250/?dance,party" class="card-img-top" alt="Festa">
-          <div class="card-body">
-            <h5 class="card-title">Baile Black</h5>
-            <p class="card-text">A noite mais dançante do mês. Dia 12 de Agosto.</p>
-          </div>
-        </div>
+      <!-- mudou -->
+<div class="col-md-4">
+  <div class="card bg-secondary text-light h-100 post" data-bs-toggle="modal" data-bs-target="#postModal">
+    <img src="https://source.unsplash.com/400x250/?dance,party" class="card-img-top" alt="Festa">
+    <div class="card-body">
+      <h5 class="card-title">Baile Black</h5>
+      <p class="card-text">A noite mais dançante do mês. Dia 12 de Agosto.</p>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal -->
+      <div class="modal" id="postModal" tabindex="-1" aria-labelledby="postModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="postModalLabel">Detalhes do Evento</h5>
+        <button type="button" class="btn-close fechar-modal" data-bs-dismiss="modal" aria-label="Fechar"></button>
       </div>
+      <div class="modal-body">
+        <p>Mais informações sobre o Baile Black...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary fechar-modal" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
       <div class="col-md-4">
         <div class="card bg-secondary text-light h-100">
