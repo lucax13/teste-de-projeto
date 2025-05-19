@@ -32,6 +32,7 @@
     <div class="container my-5">
       <h2 class="mb-4">Login</h2>
       <p class="text-warning">Atenção: os campos <strong>Nome</strong> e <strong>E-mail</strong> são <u>obrigatórios</u>.</p>
+      <p class="text-warning"> <strong><a class="text-warning" href="login-adm.php">Login</a> Adiministrativo</strong> </p>
 
       <form autocomplete="off" action="https://formspree.io/f/mldbpvlk" method="post" id="my-form">
         <fieldset class="border p-4 rounded">
