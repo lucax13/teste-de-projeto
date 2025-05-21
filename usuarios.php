@@ -22,7 +22,6 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="generos.php">Gêneros</a></li>
-              <li class="nav-item"><a class="nav-link" href="enderecos.php">Endereços</a></li>
               <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
             </ul>
           </div>

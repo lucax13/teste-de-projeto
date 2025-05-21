@@ -22,7 +22,6 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="generos.php">Gêneros</a></li>
-              <li class="nav-item"><a class="nav-link" href="enderecos.php">Endereços</a></li>
               <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
             </ul>
           </div>
@@ -104,6 +103,7 @@
           <div class="card-body">
             <h5 class="card-title">Festival Indie</h5>
             <p class="card-text">Música ao vivo e artistas nacionais. Dia 20 de Julho.</p>
+            
           </div>
         </div>
       </div>

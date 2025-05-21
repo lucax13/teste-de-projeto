@@ -21,7 +21,6 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="generos.php">Gêneros</a></li>
-              <li class="nav-item"><a class="nav-link" href="enderecos.php">Endereços</a></li>
               <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
             </ul>
           </div>
@@ -30,21 +29,26 @@
     </div>
   </header>
 
+    <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorias
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <?php foreach ($listaDeCategorias as $itemCategoria) { ?>
+                  <li>
+                    <a class="dropdown-item"
+                      href="noticias-por-categoria.php?id=<?= $itemCategoria['id'] ?>">
+                      <?= $itemCategoria['nome'] ?>
+                    </a>
+                  </li>
+                <?php } ?>
+              </ul>
+            </li>
+
   <main class="container py-5">
     <section class="text-center mb-5">
       <h2 class="display-5 fw-bold">Descubra eventos únicos</h2>
-      <p class="lead">Filtre por tipo de evento e encontre o que combina com você</p>
-    </section>
-
-    <!-- Filtro por gênero -->
-    <section class="mb-5 text-center">
-      <h3 class="mb-3">Filtrar por Gênero</h3>
-      <div class="btn-group" role="group">
-        <button class="btn btn-outline-light filter-btn" data-genero="todos">Todos</button>
-        <button class="btn btn-outline-light filter-btn" data-genero="musica">Música</button>
-        <button class="btn btn-outline-light filter-btn" data-genero="danca">Dança</button>
-        <button class="btn btn-outline-light filter-btn" data-genero="arte">Arte</button>
-      </div>
     </section>
 
     <!-- Cards de eventos -->
