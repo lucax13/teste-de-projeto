@@ -23,56 +23,57 @@
               <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="generos.php">Gêneros</a></li>
               <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
-            </ul>
+              <li class="nav-item"><a class="nav-link" href="CriarEvento.php">Crie seu evento</a></li>
+
+              <div class="position-relative">
+                <form autocomplete="off" class="d-flex" action="resultados.php" method="POST" onsubmit="return false" id="form-busca">
+                  <input id="campo-busca" name="busca" class="form-control me-2" type="search" placeholder="Pesquise aqui" aria-label="Pesquise aqui">
+                </form>
+                <!-- Div manipulada pelo busca.js -->
+                <div id="resultados" class="mt-3 position-absolute container bg-white shadow-lg p-3 rounded"></div>
+              </div>
           </div>
-        </div>
       </nav>
     </div>
-    <div class="container my-5">
-      <h2 class="mb-4">Login</h2>
-      <p class="text-warning">Atenção: os campos <strong>Nome</strong> e <strong>E-mail</strong> são <u>obrigatórios</u>.</p>
-      <p class="text-warning"> <strong><a class="text-warning" href="login-adm.php">Login</a> Adiministrativo</strong> </p>
+  </header>
+  <div class="container my-5">
+    <h2 class="mb-4">Login</h2>
+    <p class="text-warning">Atenção: os campos <strong>Nome</strong> e <strong>E-mail</strong> são <u>obrigatórios</u>.</p>
+    <p class="text-warning"> <strong><a class="text-warning" href="login-adm.php">Login</a> Adiministrativo</strong> </p>
 
-      <form autocomplete="off" action="https://formspree.io/f/mldbpvlk" method="post" id="my-form">
-        <fieldset class="border p-4 rounded">
-          <legend class="float-none w-auto px-3">Formulário de Contato</legend>
+    <form autocomplete="off" action="https://formspree.io/f/mldbpvlk" method="post" id="my-form">
+      <fieldset class="border p-4 rounded">
+        <legend class="float-none w-auto px-3">Formulário de Contato</legend>
 
-          <div class="mb-3">
-            <label for="nome" class="form-label">Nome completo *</label>
-            <input type="text" class="form-control" name="nome" id="nome" required placeholder="Digite seu nome completo">
-          </div>
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome completo *</label>
+          <input type="text" class="form-control" name="nome" id="nome" required placeholder="Digite seu nome completo">
+        </div>
 
-          <div class="mb-3">
-            <label for="email" class="form-label">E-mail *</label>
-            <input type="email" class="form-control" name="email" id="email" required placeholder="email@exemplo.com">
-          </div>
-
-          <div class="mb-3">
-            <label for="nascimento" class="form-label">Data de nascimento</label>
-            <input type="date" class="form-control" name="nascimento" id="nascimento">
-          </div>
-
-          <div class="mb-3">
-            <label for="telefone" class="form-label">Telefone</label>
-            <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="(99) 99999-9999">
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-    </div>
-    </fieldset>
-    </form>
-    </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail *</label>
+          <input type="email" class="form-control" name="email" id="email" required placeholder="email@exemplo.com">
+        </div>
 
 
+        <div class="mb-3">
+          <label for="telefone" class="form-label">Telefone</label>
+          <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="(99) 99999-9999">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+  </div>
+  </fieldset>
+  </form>
+  </div>
 
+  <footer class="bg-black text-center py-3">
+    <p class="m-0">Explosão Cultural — Empresa fictícia crianda por Maycon e Lucas &copy; </p>
+  </footer>
 
-
-    <footer class="bg-black text-center py-3">
-      <p class="m-0">Explosão Cultural — Empresa fictícia crianda por Maycon e Lucas &copy; </p>
-    </footer>
-
-    <script src="js/menu.js"></script>
-    <script src="js/login.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <script src="js/buscar.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -23,9 +23,15 @@
               <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="generos.php">Gêneros</a></li>
               <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
-            </ul>
+              <li class="nav-item"><a class="nav-link" href="CriarEvento.php">Crie seu evento</a></li>
+              <div class="position-relative">
+                <form autocomplete="off" class="d-flex" action="resultados.php" method="POST" onsubmit="return false" id="form-busca">
+                  <input id="campo-busca" name="busca" class="form-control me-2" type="search" placeholder="Pesquise aqui" aria-label="Pesquise aqui">
+                </form>
+                <!-- Div manipulada pelo busca.js -->
+                <div id="resultados" class="mt-3 position-absolute container bg-white shadow-lg p-3 rounded"></div>
+              </div>
           </div>
-        </div>
       </nav>
     </div>
   </header>
@@ -103,39 +109,39 @@
           <div class="card-body">
             <h5 class="card-title">Festival Indie</h5>
             <p class="card-text">Música ao vivo e artistas nacionais. Dia 20 de Julho.</p>
-            
+
           </div>
         </div>
       </div>
 
       <!-- mudou -->
-<div class="col-md-4">
-  <div class="card bg-secondary text-light h-100 post" data-bs-toggle="modal" data-bs-target="#postModal">
-    <img src="https://source.unsplash.com/400x250/?dance,party" class="card-img-top" alt="Festa">
-    <div class="card-body">
-      <h5 class="card-title">Baile Black</h5>
-      <p class="card-text">A noite mais dançante do mês. Dia 12 de Agosto.</p>
-    </div>
-  </div>
-</div>
+      <div class="col-md-4">
+        <div class="card bg-secondary text-light h-100 post" data-bs-toggle="modal" data-bs-target="#postModal">
+          <img src="https://source.unsplash.com/400x250/?dance,party" class="card-img-top" alt="Festa">
+          <div class="card-body">
+            <h5 class="card-title">Baile Black</h5>
+            <p class="card-text">A noite mais dançante do mês. Dia 12 de Agosto.</p>
+          </div>
+        </div>
+      </div>
 
       <!-- Modal -->
       <div class="modal" id="postModal" tabindex="-1" aria-labelledby="postModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="postModalLabel">Detalhes do Evento</h5>
-        <button type="button" class="btn-close fechar-modal" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="postModalLabel">Detalhes do Evento</h5>
+              <button type="button" class="btn-close fechar-modal" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body">
+              <p>Mais informações sobre o Baile Black...</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary fechar-modal" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-        <p>Mais informações sobre o Baile Black...</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary fechar-modal" data-bs-dismiss="modal">Fechar</button>
-      </div>
-    </div>
-  </div>
-</div>
 
       <div class="col-md-4">
         <div class="card bg-secondary text-light h-100">
@@ -185,6 +191,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/menu.js"></script>
+  <script src="js/buscar.js"></script>
 </body>
 
 </html>

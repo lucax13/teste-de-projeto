@@ -21,20 +21,25 @@
           <div class="collapse navbar-collapse" id="menuNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-          
-              <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   generos
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item"
-                      href="">
-                    </a>
-                  </li>
+                  <li><a class="dropdown-item" href=""></a> </li>
                 </ul>
               </li>
+              <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
+              <li class="nav-item"><a class="nav-link" href="CriarEvento.php">Crie seu evento</a></li>
+
+              
+              <div class="position-relative">
+                <form autocomplete="off" class="d-flex" action="resultados.php" method="POST" onsubmit="return false" id="form-busca">
+                  <input id="campo-busca" name="busca" class="form-control me-2" type="search" placeholder="Pesquise aqui" aria-label="Pesquise aqui">
+                </form>
+                <!-- Div manipulada pelo busca.js -->
+                <div id="resultados" class="mt-3 position-absolute container bg-white shadow-lg p-3 rounded"></div>
+              </div>
             </ul>
           </div>
         </div>
@@ -42,7 +47,7 @@
     </div>
   </header>
 
- 
+
 
   <main class="container py-5">
     <section class="text-center mb-5">
@@ -121,3 +126,7 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/buscar.js"></script>
+</body>
+
+</html>
