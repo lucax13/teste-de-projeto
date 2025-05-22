@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,8 +21,20 @@
           <div class="collapse navbar-collapse" id="menuNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="generos.php">Gêneros</a></li>
+          
               <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  generos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item"
+                      href="">
+                    </a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -29,22 +42,7 @@
     </div>
   </header>
 
-    <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Categorias
-              </a>
-
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <?php foreach ($listaDeCategorias as $itemCategoria) { ?>
-                  <li>
-                    <a class="dropdown-item"
-                      href="noticias-por-categoria.php?id=<?= $itemCategoria['id'] ?>">
-                      <?= $itemCategoria['nome'] ?>
-                    </a>
-                  </li>
-                <?php } ?>
-              </ul>
-            </li>
+ 
 
   <main class="container py-5">
     <section class="text-center mb-5">
@@ -104,7 +102,7 @@
         </div>
       </div>
 
-      
+
       <div class="col-md-4 evento" data-genero="musica">
         <div class="card bg-secondary text-light h-100">
           <img src="https://source.unsplash.com/400x250/?band" class="card-img-top" alt="Banda">
@@ -123,4 +121,3 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/filtro.js"></script>
