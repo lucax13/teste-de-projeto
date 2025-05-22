@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-dark text-light">
+<body class="bg-light text-dark">
   <header class="bg-black p-3">
     <div class="container d-flex justify-content-between align-items-center">
       <h1 class="m-0"><a href="index.php" class="text-light text-decoration-none">Explosão Cultural</a></h1>
@@ -121,7 +121,7 @@
     </section>
   </main>
 
-  <footer class="bg-black text-center py-3">
+  <footer class="bg-ligth text-center py-3">
     <p class="m-0">Explosão Cultural — Empresa fictícia criada por Maycon e Lucas &copy;</p>
   </footer>
 

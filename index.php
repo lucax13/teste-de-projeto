@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-dark text-light">
+<body class="bg-white text-dark">
   <header class="bg-black p-3">
     <div class="container d-flex justify-content-between align-items-center">
       <h1 class="m-0"><a href="index.php" class="text-light text-decoration-none">Explosão Cultural</a></h1>
@@ -37,7 +37,7 @@
   </header>
 
   <section class="container py-5">
-    <h2 class="text-white mb-4">Eventos em Destaque</h2>
+    <h2 class="text-dark mb-4">Eventos em Destaque</h2>
 
     <div id="carouselEventos" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -185,7 +185,7 @@
     </section>
   </main>
 
-  <footer class="bg-black text-center py-3">
+  <footer class="bg-lig text-dark text-center py-3">
     <p class="m-0">Explosão Cultural — Empresa fictícia crianda por Maycon e Lucas &copy; </p>
   </footer>
 
