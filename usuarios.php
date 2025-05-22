@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-br" class="h-100">
 
 <head>
   <meta charset="utf-8">
@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-dark text-light">
+<body class="bg-dark text-light h-100">
   <header class="bg-black p-3">
     <div class="container d-flex justify-content-between align-items-center">
       <h1 class="m-0"><a href="index.php" class="text-light text-decoration-none">Explosão Cultural</a></h1>
@@ -36,7 +36,7 @@
       </nav>
     </div>
   </header>
-  <div class="container my-5">
+  <div class="container my-5 h-100">
     <h2 class="mb-4">Login</h2>
     <p class="text-warning">Atenção: os campos <strong>Nome</strong> e <strong>E-mail</strong> são <u>obrigatórios</u>.</p>
     <p class="text-warning"> <strong><a class="text-warning" href="login-adm.php">Login</a> Adiministrativo</strong> </p>
@@ -75,5 +75,4 @@
   <script src="js/login.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
-
 </html>

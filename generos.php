@@ -26,7 +26,8 @@
                   generos
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href=""></a> </li>
+                  <li><a class="dropdown-item" href=""></a> 
+                </li>
                 </ul>
               </li>
               <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
