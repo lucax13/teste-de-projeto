@@ -35,35 +35,39 @@
           </div>
       </nav>
     </div>
-  </header>
+  </header> 
+   <main class="container my-5  bg-ligth text-dark rounded p-4 shadow">
   <div class="container my-5 h-100">
     <h2 class="mb-4">Login</h2>
     <p class="text-warning">Atenção: os campos <strong>Nome</strong> e <strong>E-mail</strong> são <u>obrigatórios</u>.</p>
     <p class="text-warning"> <strong><a class="text-warning" href="login-adm.php">Login</a> Adiministrativo</strong> </p>
 
-    <form autocomplete="off" action="https://formspree.io/f/mldbpvlk" method="post" id="my-form">
-      <fieldset class=" border p-4 rounded">
-        <legend class="float-none w-auto px-3">Formulário de Contato</legend>
+  
 
-        <div class="mb-3">
-          <label for="nome" class="form-label">Nome completo *</label>
-          <input type="text" class="form-control" name="nome" id="nome" required placeholder="Digite seu nome completo">
-        </div>
+      <form autocomplete="off" action="https://formspree.io/f/mldbpvlk" method="post" id="my-form">
+        <fieldset class=" border p-4 rounded">
+          <legend class="float-none w-auto px-3">Formulário de Contato</legend>
 
-        <div class="mb-3">
-          <label for="email" class="form-label">E-mail *</label>
-          <input type="email" class="form-control" name="email" id="email" required placeholder="email@exemplo.com">
-        </div>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome completo *</label>
+            <input type="text" class="form-control" name="nome" id="nome" required placeholder="Digite seu nome completo">
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail *</label>
+            <input type="email" class="form-control" name="email" id="email" required placeholder="email@exemplo.com">
+          </div>
 
 
-        <div class="mb-3">
-          <label for="telefone" class="form-label">Telefone</label>
-          <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="(99) 99999-9999">
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+          <div class="mb-3">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="(99) 99999-9999">
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
   </div>
   </fieldset>
   </form>
+  </main>
   </div>
 
   <footer class="bg-ligth text-center py-3">
@@ -75,4 +79,5 @@
   <script src="js/login.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
+
 </html>
