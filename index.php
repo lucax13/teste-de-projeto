@@ -10,9 +10,10 @@
 </head>
 
 <body class="bg-white text-dark">
-  <header class="bg-ligth p-3">
+  <header class="bg-black p-3">
     <div class="container d-flex justify-content-between align-items-center">
-      <h1 class="m-0"><a href="index.php" class="text-dark text-decoration-none">Explosão Cultural</a></h1>
+      <figure class="m-0"><a href="index.php"><img class="teste" src="imagens/logotipo.png" alt="logo tipo"></a></figure>
+      <h1 class="m-0"><a href="index.php" class="text-light text-decoration-none">Explosão Cultural</a></h1>
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
           <button class="navbar-toggler" type="button" id="menuBtn" aria-label="Toggle navigation">
@@ -20,10 +21,10 @@
           </button>
           <div class="collapse navbar-collapse" id="menuNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link text-dark" href="index.php">Home</a></li>
-              <li class="nav-item"><a class="nav-link text-dark" href="generos.php">Gêneros</a></li>
-              <li class="nav-item"><a class="nav-link text-dark" href="usuarios.php">Login</a></li>
-              <li class="nav-item"><a class="nav-link text-dark" href="CriarEvento.php">Crie seu evento</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="generos.php">Gêneros</a></li>
+              <li class="nav-item"><a class="nav-link" href="usuarios.php">Login</a></li>
+              <li class="nav-item"><a class="nav-link" href="CriarEvento.php">Crie seu evento</a></li>
               <div class="position-relative">
                 <form autocomplete="off" class="d-flex" action="resultados.php" method="POST" onsubmit="return false" id="form-busca">
                   <input id="campo-busca" name="busca" class="form-control me-2" type="search" placeholder="Pesquise aqui" aria-label="Pesquise aqui">
